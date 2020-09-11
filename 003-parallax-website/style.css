@@ -6,30 +6,20 @@ html {
     color: #777;
 }
 
-.bg-img1 {
-    background-image: url(./images/Image1.jpg);
+.bgimg-1 {
+    background-image: url(./img/Image1.jpg);
     min-height: 100%;
 }
 
-.bg-img2 {
-    background-image: url(./images/Image2.jpg);
-    min-height: 100%;
-}
-
-.bg-img3 {
-    background-image: url(./images/Image3.jpg);
-    min-height: 100%;
-}
-
-.bg-img1,
-.bg-img2,
-.bg-img3 {
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    opacity: 0.65;
 }
 
 .caption {
@@ -39,12 +29,24 @@ html {
     width: 100%;
     text-align: center;
     color: #000;
+}
+
+.border {
     background-color: #111;
-    color: white;
+    color: #fff;
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
-    margin: auto;
+}
+
+.bgimg-2 {
+    background-image: url(./img/Image2.jpg);
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url(./img/Image3.jpg);
+    min-height: 100%;
 }
 
 .section1 {
@@ -58,7 +60,7 @@ html {
 .section2,
 .section3 {
     position: relative;
-    background-color: #282e34;
+    background-color: #282E34;
     color: #ddd;
     text-align: center;
     padding: 50px 80px;
