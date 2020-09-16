@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Checkout</h1>
+    </div>
+    <main>
+        <form action="#">
+            <div class="information">
+                <h1>Contact İnformation</h1>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email...." required>
+                    <br>
+                    <label for="user-phone">Phone</label>
+                    <br>
+                    <input type="tel" name="phone-number" id="user-phone" placeholder="Enter your phone" required>
+                </div>
+            </div>
+            <div class="address">
+                <h1>Shipping address</h1>
+                <div class="fullname">
+                    <label for="user-fullname">Full name</label>
+                    <br>
+                    <input type="text" name="fullname" id="user-fullname" placeholder="Enter your Full name..." required>
+                    <br>
+                    <label for="user-address">Address</label>
+                    <br>
+                    <input type="text" name="address" id="user-address" placeholder="Enter your address.." required>
+                    <br>
+                    <label for="user-city">City</label>
+                    <br>
+                    <input type="text" name="city" id="user-city" placeholder="Enter your city....">
+                </div>
+                <div class="country">
+                    <label for="user-country">Country</label>
+                    <br>
+                    <select name="country" id="user-country">
+                        <option value="Turkey">Turkey</option>
+                        <option value="Germany">Germany</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </div>
+                <div class="postcode">
+                    <label for="user-postcode">Post Code</label>
+                    <br>
+                    <input type="text" name="postcode" id="user-postcode" placeholder="Enter your post code...." required><br>
+                </div>
+
+                <div class="checkbox">
+                    <input type="text" name="checkbox" id="user-check">
+
+                    <label for="user-check">See this information next time</label>
+                </div>
+            </div>
+            <button id="btn-submit" type="submit">Continue</button>
+        </form>
+        <div class="product-table">
+            <div class="product-container">
+                <div class="product">
+                    <img src="./IMG/photo1.png" alt="">
+                    <div class="product-info">
+                        <h2>Vintage Backbag</h2>
+                        <p><strong>$54.99</strong> <del><small>$94.99</small></del> </p>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img src="./IMG/photo2.png" alt="">
+                    <div class="product-info">
+                        <h2>Levi Shoes</h2>
+                        <p><strong>$74.99</strong> <del><small>$124.99</small></del> </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
